@@ -6,6 +6,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
 
   <title>Frontend Mentor | Recipe page</title>
 
@@ -23,9 +24,9 @@
         <section class="recipe-card__section recipe-card__section--preparation">
           <h2 class="recipe-card__preparation-title">Preparation time</h2>
           <ul class="recipe-card__preparation-list">
-            <li class="recipe-card__preparation-item">Total: Approximately 10 minutes</li>
-            <li class="recipe-card__preparation-item">Preparation: 5 minutes</li>
-            <li class="recipe-card__preparation-item">Cooking: 5 minutes</li>
+            <li class="recipe-card__preparation-item"><strong>Total:</strong> Approximately 10 minutes</li>
+            <li class="recipe-card__preparation-item"><strong>Preparation:</strong> 5 minutes</li>
+            <li class="recipe-card__preparation-item"><strong>Cooking:</strong> 5 minutes</li>
           </ul>
         </section>
         <section class="recipe-card__section">
@@ -74,22 +75,25 @@
           <p class="recipe-card__description">The table below shows nutritional values per serving without the
             additional fillings.</p>
           <table class="nutrition-table">
-            <tr class="nutrition-table__row">
-              <th scope="row" class="nutrition-table__header">Calories</th>
-              <td class="nutrition-table__cell">277kcal</td>
-            </tr>
-            <tr class="nutrition-table__row">
-              <th scope="row" class="nutrition-table__header">Carbs</th>
-              <td class="nutrition-table__cell">0g</td>
-            </tr>
-            <tr class="nutrition-table__row">
-              <th scope="row" class="nutrition-table__header">Protein</th>
-              <td class="nutrition-table__cell">20g</td>
-            </tr>
-            <tr class="nutrition-table__row">
-              <th scope="row" class="nutrition-table__header">Fat</th>
-              <td class="nutrition-table__cell">22g</td>
-            </tr>
+            <tbody>
+
+              <tr class="nutrition-table__row">
+                <th scope="row" class="nutrition-table__header">Calories</th>
+                <td class="nutrition-table__cell">277kcal</td>
+              </tr>
+              <tr class="nutrition-table__row">
+                <th scope="row" class="nutrition-table__header">Carbs</th>
+                <td class="nutrition-table__cell">0g</td>
+              </tr>
+              <tr class="nutrition-table__row">
+                <th scope="row" class="nutrition-table__header">Protein</th>
+                <td class="nutrition-table__cell">20g</td>
+              </tr>
+              <tr class="nutrition-table__row">
+                <th scope="row" class="nutrition-table__header">Fat</th>
+                <td class="nutrition-table__cell">22g</td>
+              </tr>
+            </tbody>
           </table>
         </section>
       </div>
