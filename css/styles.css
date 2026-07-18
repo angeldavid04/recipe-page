@@ -127,7 +127,7 @@ body {
 
 .recipe-card__subtitle {
   color: var(--brown800);
-  font-family: "Young Serif";
+  font-family: "Young Serif", sans-serif;
   font-weight: var(--fw-sm);
 }
 
