@@ -180,8 +180,8 @@ body {
   }
 
   .recipe-card__image {
-    padding: 2rem;
-    padding-bottom: 0;
-    border-radius: 42px;
+    margin: 2rem;
+    margin-bottom: 0;
+    border-radius: 12px;
   }
 }
