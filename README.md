@@ -5,7 +5,6 @@ Esta es mi solución al reto [Social links profile en Frontend Mentor](https://w
 ## Tabla de contenidos
 
 - [Resumen](#resumen)
-  - [El reto](#el-reto)
   - [Captura de pantalla](#captura-de-pantalla)
   - [Enlaces](#enlaces)
 - [Mi proceso](#mi-proceso)
@@ -17,12 +16,6 @@ Esta es mi solución al reto [Social links profile en Frontend Mentor](https://w
 - [Agradecimientos](#agradecimientos)
 
 ## 💻 Resumen
-
-### El reto
-
-Los usuarios deberían poder:
-
-- Ver los estados de hover y focus en todos los elementos interactivos de la página
 
 ### Captura de pantalla
 
